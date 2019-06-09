@@ -7,9 +7,9 @@ services:
     networks:
       - web
     volumes:
-      - pm2.json:/data/site/pm2.json
-      - config.json:/data/site/config.json
-      - template.html:/data/site/template.html
+      - ./pm2.json:/data/site/pm2.json
+      - ./config.json:/data/site/config.json
+      - ./template.html:/data/site/template.html
     logging:
       options:
         max-size: "100k"
