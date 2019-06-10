@@ -6,12 +6,19 @@
 
 > 因为我工作中会经常书写 Markdown 文档，所以我希望对这个工具 ([docsify](https://github.com/docsifyjs/docsify)) 有足够的了解😀。
 
+### Local preview in your browser
+
+```sh
+git clone https://github.com/lotteryjs/docsify.lotteryjs.com.git
+cd docsify.lotteryjs.com
+docker-compose up -d
+```
+
+[http://localhost:4000](http://localhost:4000)
+
 ### Todo List
 
 #### Docsify Core
-
-
-
 
 
 ### Mind maps
@@ -24,12 +31,7 @@
 
 ![Docsify.prototype._init](./images/naotu/2.Docsify.prototype._init.png)
 
-### Preview your site
+### Refs
 
-```sh
-git clone https://github.com/lotteryjs/docsify.lotteryjs.com.git
-cd docsify.lotteryjs.com
-docker-compose up -d
-```
-
-[http://localhost:4000](http://localhost:4000)
+* [docs-ssr](https://github.com/lotteryjs/docs-ssr)
+* [Docsify 深入源码](https://mp.weixin.qq.com/s/Sb0bMNz1PdmGgFF_W5sZDA?)
