@@ -6,15 +6,25 @@
 
 > 因为我工作中会经常书写 Markdown 文档，所以我希望对这个工具 ([docsify](https://github.com/docsifyjs/docsify)) 有足够的了解😀。
 
-### 脑图
+### Todo List
+
+#### Docsify Core
+
+
+
+
+
+### Mind maps
 
 1. Docsify Mixin：为 Docsify() 注入原型方法。
 
 ![Docsify](./images/naotu/1.Docsify.png)
 
-### Todo List
+2. Docsify.prototype._init
 
-### 启动这项目
+![Docsify.prototype._init](./images/naotu/2.Docsify.prototype._init.png)
+
+### Preview your site
 
 ```sh
 git clone https://github.com/lotteryjs/docsify.lotteryjs.com.git
