@@ -5,6 +5,8 @@
 ### 启动这项目
 
 ```sh
+git clone https://github.com/lotteryjs/docsify.lotteryjs.com.git
+cd docsify.lotteryjs.com
 docker-compose up -d
 ```
 
