@@ -22,15 +22,16 @@ Everything start with `this._init()`
 
 9 步（逻辑记忆）
 
-- [ ] config(merge window.$docsify)
-- [ ] initLifecycle(Init hooks)
-- [ ] initPlugin(Install plugins)
-- [ ] callHook(`init` hook)
-- [ ] initRouter(Add router)
-- [ ] initRender(Render base DOM)
-- [ ] initEvent(Bind events)
-- [ ] initFetch(Fetch data)
-- [ ] callHook(`mounted` hook)
+- config
+  - 合并 `window.$docsify`
+- initLifecycle(Init hooks)
+- initPlugin(Install plugins)
+- callHook(`init` hook)
+- initRouter(Add router)
+- initRender(Render base DOM)
+- initEvent(Bind events)
+- initFetch(Fetch data)
+- callHook(`mounted` hook)
 
 
 
