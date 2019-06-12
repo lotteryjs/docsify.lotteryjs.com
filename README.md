@@ -16,7 +16,13 @@ docker-compose up -d
 
 [http://localhost:4000](http://localhost:4000)
 
-### Todo List
+### Todo List 
+
+Everything start with `this._init()`
+
+- [ ] 配置处理
+ 
+
 
 #### Docsify Core
 
