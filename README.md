@@ -20,8 +20,8 @@ docker-compose up -d
 
 Everything start with `this._init()`
 
-- [ ] 配置处理
- 
+- [ ] 配置
+
 
 
 #### Docsify Core
