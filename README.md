@@ -62,7 +62,6 @@ Everything start with `this._init()`
   - 执行用户在 `mounted` 扩展点的所有自定义函数
 
 
-
 #### Docsify Core
 
 
