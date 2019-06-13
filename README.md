@@ -35,7 +35,9 @@ Everything start with `this._init()`
     - `init`,`mounted`,`beforeEach`,`afterEach`,`doneEach`,`ready`
     - 设计基于这些 hooks 的扩展机制
 - initPlugin(Install plugins)
+  - 安装用户的插件，也就是装载用户在的各个扩展点（hooks）自定义函数
 - callHook(`init` hook)
+  - 执行用户在 `init` 扩展点的所有自定义函数
 - initRouter(Add router)
 - initRender(Render base DOM)
 - initEvent(Bind events)
