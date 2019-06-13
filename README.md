@@ -56,7 +56,10 @@ Everything start with `this._init()`
   - siderbar
   - scroll
 - initFetch(Fetch data)
+  - XMLHttpRequest
+  - progressbar
 - callHook(`mounted` hook)
+  - 执行用户在 `mounted` 扩展点的所有自定义函数
 
 
 
