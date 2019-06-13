@@ -40,10 +40,12 @@ Everything start with `this._init()`
   - 执行用户在 `init` 扩展点的所有自定义函数
 - initRouter(Add router)
   - HTML5History
-    - popstate
+    - `popstate` 事件
   - HashHistory
-    - hashchange
+    - `hashchange` 事件
 - initRender(Render base DOM)
+  - `csr` 与 `ssr` 的区分
+  - 
 - initEvent(Bind events)
 - initFetch(Fetch data)
 - callHook(`mounted` hook)
