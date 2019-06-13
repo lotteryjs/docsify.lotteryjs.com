@@ -31,6 +31,8 @@ Everything start with `this._init()`
   - 处理 `repo` 配置项(GitHub角标)
   - 处理 `name` 配置项(文档名称)
 - initLifecycle(Init hooks)
+  - 定义 `docsify` 实例各个阶段的 hooks，方便扩展
+  
 - initPlugin(Install plugins)
 - callHook(`init` hook)
 - initRouter(Add router)
