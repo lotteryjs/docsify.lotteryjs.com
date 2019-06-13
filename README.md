@@ -20,7 +20,7 @@ docker-compose up -d
 
 Everything start with `this._init()`
 
-9 步（逻辑记忆）
+优雅使用 vanilla JavaScript 完成你的项目（逻辑记忆）
 
 - config (加载配置)
   - 合并配置(window.$docsify)
