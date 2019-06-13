@@ -22,7 +22,7 @@ Everything start with `this._init()`
 
 9 步（逻辑记忆）
 
-- config
+- config (加载配置)
   - 合并配置(window.$docsify)
   - 处理 script 标签中的 `data-*` 属性配置
   - 处理 `loadSidebar` 配置项(侧边栏)
