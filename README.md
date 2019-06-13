@@ -39,6 +39,8 @@ Everything start with `this._init()`
 - callHook(`init` hook)
   - 执行用户在 `init` 扩展点的所有自定义函数
 - initRouter(Add router)
+  - HTML5History
+  - HashHistory
 - initRender(Render base DOM)
 - initEvent(Bind events)
 - initFetch(Fetch data)
