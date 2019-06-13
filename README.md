@@ -53,6 +53,8 @@ Everything start with `this._init()`
   - `themeColor` ?
   - `nameLink` ?
 - initEvent(Bind events)
+  - siderbar
+  - scroll
 - initFetch(Fetch data)
 - callHook(`mounted` hook)
 
