@@ -32,7 +32,8 @@ Everything start with `this._init()`
   - 处理 `name` 配置项(文档名称)
 - initLifecycle(Init hooks)
   - 定义 `docsify` 实例各个阶段的 hooks，方便扩展
-
+    - `init`,`mounted`,`beforeEach`,`afterEach`,`doneEach`,`ready`
+    - 设计基于这些 hooks 的扩展机制
 - initPlugin(Install plugins)
 - callHook(`init` hook)
 - initRouter(Add router)
