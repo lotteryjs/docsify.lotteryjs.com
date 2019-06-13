@@ -25,14 +25,14 @@ Everything start with `this._init()`
 - config (加载配置)
   - 合并配置(window.$docsify)
   - 处理 script 标签中的 `data-*` 属性配置
-  - 处理 `loadSidebar` 配置项(侧边栏)
+  - 处理 `loadSidebar` 配置项(侧边栏)
   - 处理 `loadNavbar` 配置项(导航栏)
   - 处理 `coverpage` 配置项(封面)
   - 处理 `repo` 配置项(GitHub角标)
   - 处理 `name` 配置项(文档名称)
 - initLifecycle(Init hooks)
   - 定义 `docsify` 实例各个阶段的 hooks，方便扩展
-  
+
 - initPlugin(Install plugins)
 - callHook(`init` hook)
 - initRouter(Add router)
